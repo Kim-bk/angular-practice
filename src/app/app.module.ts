@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
+import { AuthorDetailsComponent } from './authors/author-details/author-details.component';
+import { AuthorListComponent } from './authors/author-list/author-list.component';
 import { HelloComponent } from './hello/hello.component';
 import { HiComponent } from './hi/hi.component';
 
@@ -9,7 +11,9 @@ import { HiComponent } from './hi/hi.component';
     declarations: [
         AppComponent,
         HelloComponent,
-        HiComponent
+        HiComponent,
+        AuthorListComponent,
+        AuthorDetailsComponent
 
     ],
     providers: [],

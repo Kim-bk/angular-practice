@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular100day';
+  name = 'angular100day';
+  questions = {
+      question1: true,
+      question2:false,
+  }
 }

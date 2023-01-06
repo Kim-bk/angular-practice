@@ -9,7 +9,7 @@ import { HiComponent } from './hi/hi.component';
 import { ToggleComponent } from './toggle/toggle.component';
 import { TabComponent } from './tab/tab.component';
 import { TaskComponent } from './task/task.component';
-
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
     declarations: [
@@ -21,13 +21,13 @@ import { TaskComponent } from './task/task.component';
         ToggleComponent,
         TabComponent,
         TaskComponent
-
     ],
     providers: [],
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
         FormsModule,
+        DragDropModule,
     ]
 })
 export class AppModule { }

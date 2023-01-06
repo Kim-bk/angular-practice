@@ -1,6 +1,6 @@
-<p>Your name: {{ name }}</p>
+<!-- <p>Your name: {{ name }}</p> -->
 
-<input type= "text" [(ngModel)]= "name" />
+<!-- <input type= "text" [(ngModel)]= "name" />
 
 <app-toggle [(checked)]="questions.question1">
 <h3 class="header">Header 1</h3>
@@ -15,4 +15,26 @@
   <label>Label 2</label>
   <p>Question 2</p>
   <button>Skip</button>
-</app-toggle>
+</app-toggle> -->
+
+
+<!-- <div class="card mx-4">
+  <div class="card-header">
+    You have selected
+    <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container> items.
+  </div>
+  <div class="card-body">
+    There are <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container> items was
+    selected.
+  </div>
+  <div class="card-footer">
+    You have selected
+    <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container> items.
+  </div>
+</div>
+
+<ng-template #counterTmpl>
+  <span class = "badge badge-primary">{{ counter }}</span>
+</ng-template> -->
+
+<app-task></app-task>

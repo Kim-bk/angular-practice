@@ -7,6 +7,8 @@ import { AuthorListComponent } from './authors/author-list/author-list.component
 import { HelloComponent } from './hello/hello.component';
 import { HiComponent } from './hi/hi.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { TabComponent } from './tab/tab.component';
+import { TaskComponent } from './task/task.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { ToggleComponent } from './toggle/toggle.component';
         HiComponent,
         AuthorListComponent,
         AuthorDetailsComponent,
-        ToggleComponent
+        ToggleComponent,
+        TabComponent,
+        TaskComponent
 
     ],
     providers: [],

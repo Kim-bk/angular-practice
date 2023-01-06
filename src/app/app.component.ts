@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'angular100day';
+  counter = 1;
   questions = {
       question1: true,
       question2:false,
